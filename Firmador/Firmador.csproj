@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>FirmadorCR</RootNamespace>
+    <AssemblyName>FirmadorCR</AssemblyName>
+
+    <!-- NuGet package metadata -->
+    <PackageId>FirmadorCR</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Josué Navarro</Authors>
+    <Description>
+      .NET library for signing electronic XML invoices (comprobantes electrónicos)
+      for Costa Rica's Hacienda tax authority. Implements XAdES-EPES according to
+      the Hacienda CR v4.4 specification.
+    </Description>
+    <PackageTags>costa-rica;hacienda;xades;xml-signature;comprobantes-electronicos;factura-electronica</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/josuegame2030/FirmadorCR-DotNET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+
+    <!-- Source Link -->
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="10.0.6" />
+  </ItemGroup>
+
+</Project>
