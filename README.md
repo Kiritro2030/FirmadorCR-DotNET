@@ -1,7 +1,6 @@
 # FirmadorCR .NET
 
 [![Build & Test](https://github.com/josuegame2030/FirmadorCR-DotNET/actions/workflows/ci.yml/badge.svg)](https://github.com/josuegame2030/FirmadorCR-DotNET/actions/workflows/ci.yml)
-[![NuGet](https://img.shields.io/nuget/v/FirmadorCR)](https://www.nuget.org/packages/FirmadorCR)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **English** | [Español](#español)
@@ -24,7 +23,7 @@ Implements the **XAdES-EPES** signature format as specified in [Hacienda CR v4.4
 ## Requirements
 
 - [.NET 10+](https://dotnet.microsoft.com/download)
-- A valid **Hacienda CR P12/PFX digital certificate** (issued via BCCR / SINPE)
+- A valid **Hacienda CR P12/PFX digital certificate**
 - An unsigned XML invoice conforming to the **v4.4** schema
 
 ## Installation
@@ -188,7 +187,7 @@ if (resultado.Exito)
 ### Requisitos
 
 - .NET 10+
-- Certificado digital P12/PFX emitido por Hacienda CR (BCCR / SINPE)
+- Certificado digital P12/PFX emitido por Hacienda
 - XML de comprobante electrónico en formato v4.4
 
 ### Ejecutar los tests
