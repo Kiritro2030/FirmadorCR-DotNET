@@ -28,8 +28,11 @@ Implements the **XAdES-EPES** signature format as specified in [Hacienda CR v4.4
 
 ## Installation
 
+Clone the repo and add a project reference:
+
 ```bash
-dotnet add package FirmadorCR
+git clone https://github.com/Kiritro2030/FirmadorCR-DotNET.git
+dotnet add reference ../FirmadorCR-DotNET/Firmador/Firmador.csproj
 ```
 
 ## Quick Start
@@ -162,8 +165,11 @@ Implementa el formato de firma **XAdES-EPES** según la especificación de Hacie
 
 ### Instalación
 
+Clonar el repo y agregar una referencia al proyecto:
+
 ```bash
-dotnet add package FirmadorCR
+git clone https://github.com/Kiritro2030/FirmadorCR-DotNET.git
+dotnet add reference ../FirmadorCR-DotNET/Firmador/Firmador.csproj
 ```
 
 ### Uso rápido
