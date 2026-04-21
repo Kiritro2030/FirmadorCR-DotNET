@@ -1,6 +1,6 @@
 # FirmadorCR .NET
 
-[![Build & Test](https://github.com/Kiritro2030/FirmadorCR-DotNET/actions/workflows/ci.yml/badge.svg)](https://github.com/josuegame2030/FirmadorCR-DotNET/actions/workflows/ci.yml)
+[![Build & Test](https://github.com/Kiritro2030/FirmadorCR-DotNET/actions/workflows/ci.yml/badge.svg)](https://github.com/Kiritro2030/FirmadorCR-DotNET/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **English** | [Español](#español)
