@@ -208,3 +208,18 @@ Los tests generan un certificado autofirmado en tiempo de ejecución. No se requ
 
 - **Nunca suba certificados P12/PFX reales a control de versiones.** El `.gitignore` ya excluye `*.p12` y `*.pfx`.
 - El PIN del certificado debe leerse desde variables de entorno o un gestor de secretos.
+
+
+## Line endings y C14N
+
+El estándar XML Canonicalization (C14N) trata `\r` y `\r\n` de forma
+distinta a `\n`. En Windows, ciertos editores o herramientas generan
+XML con `\r\n` (CRLF), lo que hace que el digest SHA-256 del documento
+difiera del que Hacienda recalcula al validar la firma.
+
+La librería normaliza automáticamente todos los saltos de línea a `\n`
+(LF) antes de firmar. Si construís el XML programáticamente desde
+.NET, no necesitás hacer nada adicional. Si leés el XML desde un
+archivo en Windows, asegurate de no usar `File.ReadAllText` con
+encoding que preserve CRLF, o simplemente dejá que la librería lo
+normalice internamente.
