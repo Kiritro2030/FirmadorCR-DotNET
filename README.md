@@ -9,7 +9,7 @@
 
 A .NET library for digitally signing electronic XML invoices (*comprobantes electrónicos*) for Costa Rica's **Ministerio de Hacienda** tax authority.
 
-Implements the **XAdES-EPES** signature format as specified in [Hacienda CR v4.4]([https://www.hacienda.go.cr/contenido/14716-comprobantes-electronicos](https://www.hacienda.go.cr/docs/ANEXOS_Y_ESTRUCTURAS_V4.4.pdf)).
+Implements the **XAdES-EPES** signature format as specified in [Hacienda CR v4.4](https://www.hacienda.go.cr/docs/ANEXOS_Y_ESTRUCTURAS_V4.4.pdf).
 
 ## Features
 
